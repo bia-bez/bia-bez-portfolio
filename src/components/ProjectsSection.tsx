@@ -46,7 +46,7 @@ export default function ProjectsSection({
           <div>
             <p className="section-label">Portfólio</p>
             <h2 className="section-title">
-              Meus <span className={styles.titleAccent}>projetos</span>
+              <span className="gradientText">Meus projetos</span>
             </h2>
           </div>
         </div>

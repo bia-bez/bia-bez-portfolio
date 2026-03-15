@@ -37,7 +37,7 @@ export default function ContactSection() {
 
           <p className={`section-label ${styles.label}`}>Contato</p>
           <h2 className={`section-title ${styles.title}`}>
-            Vamos <span className={styles.titleAccent}>trabalhar</span> juntos?
+            Vamos <span className="gradientText">trabalhar</span> juntos?
           </h2>
           <div className={`divider ${styles.divider}`} />
 

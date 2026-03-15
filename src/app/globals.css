@@ -92,6 +92,15 @@ ol {
   max-width: 520px;
 }
 
+/*  ─── Classe Reutilizavel ─────────── */
+.gradientText {
+  background: linear-gradient(90deg, #67f7c4 0%, #59f3ff 46%, #9b5cff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
 /* ─── Buttons ────────────────────────────────────── */
 .btn {
   display: inline-flex;

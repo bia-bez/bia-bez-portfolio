@@ -4,7 +4,7 @@ import styles from "./AboutPreview.module.css";
 
 const stats = [
   { value: "10+", label: "Tecnologias" },
-  { value: "3+", label: "Projetos" },
+  { value: "5+", label: "Projetos" },
   { value: "2028", label: "Formação" },
 ];
 

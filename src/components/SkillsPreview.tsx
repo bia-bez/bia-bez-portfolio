@@ -38,7 +38,7 @@ export default function SkillsPreview() {
         <div className={styles.header}>
           <p className="section-label">Tecnologias</p>
           <h2 className="section-title">
-            Minha <span className={styles.titleAccent}>stack</span>
+            <span className="gradientText">Minha stack</span>
           </h2>
           <p className={styles.headerDescription}>
             Ferramentas e tecnologias que uso no dia a dia e estou aprendendo.
