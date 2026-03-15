@@ -11,7 +11,7 @@ const mockProjects: Project[] = [
     description:
       "Este portfólio — construído com Next.js, React e TypeScript. Foco em performance, acessibilidade e design moderno.",
     tags: ["Next.js", "TypeScript", "React"],
-    url: "https://github.com/bia-bez/portfolio-website",
+    url: "https://github.com/bia-bez/bia-bez-portfolio",
   },
   {
     id: "2",
