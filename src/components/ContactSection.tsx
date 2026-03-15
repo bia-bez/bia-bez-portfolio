@@ -43,7 +43,7 @@ export default function ContactSection() {
 
           <p className={styles.description}>
             Estou disponível para oportunidades de estágio e posições júnior. Se
-            meu perfil me interessa para o seu time, adoraria conversar!
+            meu perfil interessar ao seu time, ficarei feliz em conversar!
           </p>
 
           {/* Email CTA */}

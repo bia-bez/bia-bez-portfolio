@@ -53,9 +53,9 @@ export default function AboutPreview() {
             </p>
             <p className={styles.bodyText}>
               Gosto de entender como as coisas funcionam por trás das
-              aplicações. Tenho estudado principalmente HTML, CSS, JavaScript e
-              React, sempre melhorarando tanto a parte técnica quanto a
-              experiência do usuário.
+              aplicações. Tenho estudado principalmente HTML, CSS e React,
+              sempre melhorarando tanto a parte técnica quanto a experiência do
+              usuário.
             </p>
 
             <div className={styles.actions}>
