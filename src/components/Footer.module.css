@@ -1,0 +1,51 @@
+/* ─── Footer ─────────────────────────────────────── */
+
+.footer {
+  border-top: 1px solid var(--border);
+  padding: 40px 0;
+}
+
+/* ─── Inner ──────────────────────────────────────── */
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* ─── Logo ───────────────────────────────────────── */
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--accent);
+  letter-spacing: -0.02em;
+}
+
+/* ─── Nav ────────────────────────────────────────── */
+
+.nav {
+  display: flex;
+  gap: 28px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.navLink {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  transition: color 0.2s;
+}
+
+.navLink:hover {
+  color: var(--text);
+}
+
+/* ─── Copyright ──────────────────────────────────── */
+
+.copy {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+}

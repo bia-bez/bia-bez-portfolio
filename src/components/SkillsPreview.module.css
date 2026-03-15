@@ -1,0 +1,110 @@
+/* ─── Skills Preview ─────────────────────────────── */
+
+.section {
+  background: var(--bg-card);
+}
+
+/* ─── Header ─────────────────────────────────────── */
+
+.header {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.headerDescription {
+  color: var(--text-muted);
+  margin-top: 16px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titleAccent {
+  color: var(--accent);
+}
+
+/* ─── Grid de skills ─────────────────────────────── */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+.skillCard {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 20px;
+}
+
+.skillIcon {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  color: var(--accent);
+  flex-shrink: 0;
+}
+
+.skillName {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.skillLevel {
+  font-size: 0.72rem;
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+/* Cores de nível via data-level */
+.skillLevel[data-level="Sólido"] {
+  color: #10b981;
+}
+
+.skillLevel[data-level="Aprendendo"] {
+  color: #f59e0b;
+}
+
+.skillLevel[data-level="Básico"] {
+  color: #6b7280;
+}
+
+/* ─── Legenda ────────────────────────────────────── */
+
+.legend {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.legendDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+/* Cores dos dots da legenda */
+.legendDot[data-level="Sólido"] {
+  background: #10b981;
+}
+
+.legendDot[data-level="Aprendendo"] {
+  background: #f59e0b;
+}
+
+.legendDot[data-level="Básico"] {
+  background: #6b7280;
+}

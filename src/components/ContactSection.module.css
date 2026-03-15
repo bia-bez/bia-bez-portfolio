@@ -1,0 +1,113 @@
+/* ─── Contact Section ────────────────────────────── */
+
+.section {
+  position: relative;
+  overflow: hidden;
+}
+
+.bg {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(
+    ellipse at 50% 100%,
+    rgba(16, 185, 129, 0.08) 0%,
+    transparent 70%
+  );
+  pointer-events: none;
+}
+
+.container {
+  position: relative;
+}
+
+/* ─── CTA Card ───────────────────────────────────── */
+
+.ctaCard {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 64px 48px;
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Linha de destaque no topo do card */
+.accentLine {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+  border-radius: 1px;
+}
+
+/* ─── Label e título ─────────────────────────────── */
+
+.label {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  margin-top: 4px;
+}
+
+.titleAccent {
+  color: var(--accent);
+}
+
+.divider {
+  margin: 16px auto 24px;
+}
+
+/* ─── Descrição ──────────────────────────────────── */
+
+.description {
+  color: var(--text-muted);
+  font-size: 1rem;
+  line-height: 1.75;
+  max-width: 480px;
+  margin: 0 auto 40px;
+}
+
+/* ─── Email CTA ──────────────────────────────────── */
+
+.emailBtn {
+  font-size: 1rem;
+  padding: 14px 36px;
+  margin-bottom: 36px;
+}
+
+/* ─── Social links ───────────────────────────────── */
+
+.socialRow {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.socialLink {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-sm);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  transition:
+    border-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.socialLink:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+}
