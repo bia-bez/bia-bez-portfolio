@@ -1,10 +1,7 @@
 # Bianca Bezerra — Personal Portfolio
 
-[![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)]()
-[![React](https://img.shields.io/badge/React-19-149eca?logo=react&logoColor=white)]()
-[![TypeScript](https://img.shields.io/badge/TypeScript-Ready-3178c6?logo=typescript&logoColor=white)]()
-[![CSS Modules](https://img.shields.io/badge/CSS_Modules-Styled-000000?logo=css3&logoColor=white)]()
-[![Status](https://img.shields.io/badge/status-in%20development-6c63ff)]()
+
+**Live Site:** [https://www.biabez.dev](https://www.biabez.dev)
 
 Portfólio pessoal desenvolvido para apresentar minha identidade profissional, principais projetos, stack tecnológica e canais de contato em uma experiência moderna, responsiva e visualmente marcante.
 
