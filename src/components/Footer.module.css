@@ -35,12 +35,12 @@
 
 .navLink {
   font-size: 0.85rem;
-  color: var(--text-dim);
+  color: var(--text);
   transition: color 0.2s;
 }
 
 .navLink:hover {
-  color: var(--text);
+  color: var(--accent);
 }
 
 /* ─── Copyright ──────────────────────────────────── */
